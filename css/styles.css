@@ -1,3 +1,43 @@
 /* Stylesheet */
+/* line 3, /Users/mickijames/GitHub/lvl-3/css/styles.scss */
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 5px;
+  --fontsize: 50px; }
+
+/* line 10, /Users/mickijames/GitHub/lvl-3/css/styles.scss */
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur)); }
+
+/* line 16, /Users/mickijames/GitHub/lvl-3/css/styles.scss */
+.hl {
+  color: var(--base);
+  font-size: var(--fontsize); }
+
+/*
+    misc styles, nothing to do with CSS variables
+*/
+/* line 25, /Users/mickijames/GitHub/lvl-3/css/styles.scss */
+body {
+  text-align: center; }
+
+/* line 29, /Users/mickijames/GitHub/lvl-3/css/styles.scss */
+body {
+  background: #193549;
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 30px; }
+
+/* line 37, /Users/mickijames/GitHub/lvl-3/css/styles.scss */
+.controls {
+  margin-bottom: 50px; }
+
+/* line 41, /Users/mickijames/GitHub/lvl-3/css/styles.scss */
+input {
+  width: 100px; }
 
 /*# sourceMappingURL=styles.css.map */
